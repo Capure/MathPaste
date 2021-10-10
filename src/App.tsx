@@ -90,11 +90,16 @@ const Math = styled.div`
   color: white;
   font-size: 18px;
   padding: 15px;
+  box-sizing: border-box;
   width: 50vw;
+  height: 100vh;
   overflow: auto;
   @media (max-width: 1280px) {
-    min-height: 50vh;
-    min-width: 100vw;
+    height: 50vh;
+    width: 100vw;
+  }
+  .newline {
+    height: 10px;
   }
 `;
 
